@@ -3,6 +3,7 @@ Test the telemetry worker with a mocked drone.
 """
 
 import multiprocessing as mp
+import queue
 import subprocess
 import threading
 
@@ -28,6 +29,7 @@ NUM_FAILS = 3
 #                            ↓ BOOTCAMPERS MODIFY BELOW THIS COMMENT ↓
 # =================================================================================================
 # Add your own constants here
+READ_TIMEOUT = 0.1  # queue read timeout in seconds
 
 # =================================================================================================
 #                            ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
@@ -47,22 +49,39 @@ def start_drone() -> None:
 #                            ↓ BOOTCAMPERS MODIFY BELOW THIS COMMENT ↓
 # =================================================================================================
 def stop(
-    args,  # Add any necessary arguments
+    controller: worker_controller.WorkerController,
+    output_queue: queue_proxy_wrapper.QueueProxyWrapper,
 ) -> None:
     """
     Stop the workers.
     """
-    pass  # Add logic to stop your worker
+    # Add logic to stop your worker
+    output_queue.queue.put(None)
+    controller.request_exit()
 
 
 def read_queue(
-    args,  # Add any necessary arguments
+    controller: worker_controller.WorkerController,
+    output_queue: queue_proxy_wrapper.QueueProxyWrapper,
     main_logger: logger.Logger,
 ) -> None:
     """
     Read and print the output queue.
     """
-    pass  # Add logic to read from your worker's output queue and print it using the logger
+    # Add logic to read from your worker's output queue and print it using the logger
+    while not controller.is_exit_requested():
+        try:
+            telemetry = output_queue.queue.get(timeout=READ_TIMEOUT)
+        except queue.Empty:
+            continue
+        except (OSError, TypeError, AttributeError) as e:
+            main_logger.error(f"Unusual error while reading from output queue: {e}")
+            continue
+
+        if telemetry is None:
+            break
+
+        main_logger.info(f"Reciever telemetry: {telemetry}")
 
 
 # =================================================================================================
@@ -111,20 +130,23 @@ def main() -> int:
     # =============================================================================================
     # Mock starting a worker, since cannot actually start a new process
     # Create a worker controller for your worker
+    controller = worker_controller.WorkerController()
 
     # Create a multiprocess manager for synchronized queues
+    manager = mp.Manager()
 
     # Create your queues
+    output_queue = queue_proxy_wrapper.QueueProxyWrapper(manager)
 
     # Just set a timer to stop the worker after a while, since the worker infinite loops
-    threading.Timer(TELEMETRY_PERIOD * NUM_TRIALS * 2 + NUM_FAILS, stop, (args,)).start()
+    threading.Timer(
+        TELEMETRY_PERIOD * NUM_TRIALS * 2 + NUM_FAILS, stop, (controller, output_queue)
+    ).start()
 
     # Read the main queue (worker outputs)
-    threading.Thread(target=read_queue, args=(args, main_logger)).start()
+    threading.Thread(target=read_queue, args=(controller, output_queue, main_logger)).start()
 
-    telemetry_worker.telemetry_worker(
-        # Put your own arguments here
-    )
+    telemetry_worker.telemetry_worker(connection, controller, output_queue)
     # =============================================================================================
     #                          ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
     # =============================================================================================

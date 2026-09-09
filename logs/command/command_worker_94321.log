@@ -1,0 +1,59 @@
+16:27:43: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 51] Logger initialized
+16:27:43: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [0. 0. 4.]
+16:27:43: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 120] CHANGE ALTITUDE: 1
+16:27:43: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [0. 0. 1.]
+16:27:43: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 120] CHANGE ALTITUDE: -1
+16:27:44: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [0.         0.         0.66666667]
+16:27:44: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [0.  0.  0.5]
+16:27:45: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [0.  0.  0.4]
+16:27:45: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [0.         0.         0.33333333]
+16:27:46: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [0.         0.         0.28571429]
+16:27:46: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [0.   2.5  0.25]
+16:27:46: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: 63.43494882292201
+16:27:47: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [0.         4.44444444 0.22222222]
+16:27:47: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: 90.0
+16:27:47: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [0.  6.  0.2]
+16:27:47: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: 116.56505117707799
+16:27:48: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [1.81818182 5.45454545 0.18181818]
+16:27:48: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: 45.0
+16:27:48: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [3.33333333 5.         0.16666667]
+16:27:48: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: 63.43494882292201
+16:27:49: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [4.61538462 4.61538462 0.15384615]
+16:27:49: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: 90.0
+16:27:49: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [4.28571429 2.85714286 0.14285714]
+16:27:49: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: 26.565051177077976
+16:27:50: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [4.         1.33333333 0.13333333]
+16:27:50: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: 45.0
+16:27:50: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [3.75  0.    0.125]
+16:27:50: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: 90.0
+16:27:51: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [2.35294118 0.         0.11764706]
+16:27:51: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: 45.0
+16:27:51: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [1.11111111 0.         0.11111111]
+16:27:51: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: 90.0
+16:27:52: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [0.         0.         0.10526316]
+16:27:52: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: 135.0
+16:27:52: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [0.  1.  0.1]
+16:27:52: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: -26.565051177077994
+16:27:53: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [0.        1.9047619 0.0952381]
+16:27:53: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: -45.0
+16:27:53: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [0.         2.72727273 0.09090909]
+16:27:53: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: -90.0
+16:27:54: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [0.86956522 2.60869565 0.08695652]
+16:27:54: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: -45.0
+16:27:54: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [1.66666667 2.5        0.08333333]
+16:27:54: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: -90.0
+16:27:55: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [2.4  2.4  0.08]
+16:27:55: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: -135.0
+16:27:55: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [2.30769231 1.53846154 0.07692308]
+16:27:55: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: -63.43494882292201
+16:27:56: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [2.22222222 0.74074074 0.07407407]
+16:27:56: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: -90.0
+16:27:56: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [2.14285714 0.         0.07142857]
+16:27:56: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: -116.565051177078
+16:27:57: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [1.37931034 0.         0.06896552]
+16:27:57: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: -45.0
+16:27:57: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [0.66666667 0.         0.06666667]
+16:27:57: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: -63.43494882292201
+16:27:58: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 96] Average velocity so far: [0.         0.         0.06451613]
+16:27:58: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command.py | run | 150] CHANGE YAW: -90.0
+16:27:58: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/command/command_worker.py | command_worker | 72] Failed to get telemetry data

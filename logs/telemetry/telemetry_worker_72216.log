@@ -1,0 +1,9 @@
+08:12:27: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 46] Logger initialized
+08:12:32: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 133] Timed Out: failed to recieve both location postion and attitude data in 1 second
+08:12:32: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 62] Failed to get telemetry data
+08:12:33: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 133] Timed Out: failed to recieve both location postion and attitude data in 1 second
+08:12:33: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 62] Failed to get telemetry data
+08:12:34: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 133] Timed Out: failed to recieve both location postion and attitude data in 1 second
+08:12:34: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 62] Failed to get telemetry data
+08:12:40: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry.py | run | 133] Timed Out: failed to recieve both location postion and attitude data in 1 second
+08:12:40: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/telemetry/telemetry_worker.py | telemetry_worker | 62] Failed to get telemetry data

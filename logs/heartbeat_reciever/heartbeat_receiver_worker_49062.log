@@ -1,0 +1,35 @@
+17:26:52: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 46] Logger initialized
+17:26:52: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 58] HeartbeatReceiver created successfully
+17:26:52: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 61] Heartbeat received successfully
+17:26:53: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 61] Heartbeat received successfully
+17:26:54: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 66] Missed heartbeat; Currently missed 1 heartbeats consecutively
+17:26:54: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 61] Heartbeat received successfully
+17:26:55: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 66] Missed heartbeat; Currently missed 1 heartbeats consecutively
+17:26:55: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 61] Heartbeat received successfully
+17:26:56: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 66] Missed heartbeat; Currently missed 1 heartbeats consecutively
+17:26:56: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 61] Heartbeat received successfully
+17:26:57: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 66] Missed heartbeat; Currently missed 1 heartbeats consecutively
+17:26:58: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 66] Missed heartbeat; Currently missed 2 heartbeats consecutively
+17:26:59: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 66] Missed heartbeat; Currently missed 3 heartbeats consecutively
+17:27:00: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 66] Missed heartbeat; Currently missed 4 heartbeats consecutively
+17:27:01: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 66] Missed heartbeat; Currently missed 5 heartbeats consecutively
+17:27:01: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 72] Marked as Disconnected due to consecutive missed heartbeats
+17:27:02: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 66] Missed heartbeat; Currently missed 6 heartbeats consecutively
+17:27:02: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 72] Marked as Disconnected due to consecutive missed heartbeats
+17:27:03: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 66] Missed heartbeat; Currently missed 7 heartbeats consecutively
+17:27:03: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 72] Marked as Disconnected due to consecutive missed heartbeats
+17:27:04: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 66] Missed heartbeat; Currently missed 8 heartbeats consecutively
+17:27:04: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 72] Marked as Disconnected due to consecutive missed heartbeats
+17:27:05: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 61] Heartbeat received successfully
+17:27:06: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 66] Missed heartbeat; Currently missed 1 heartbeats consecutively
+17:27:06: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 61] Heartbeat received successfully
+17:27:07: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 66] Missed heartbeat; Currently missed 1 heartbeats consecutively
+17:27:07: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 61] Heartbeat received successfully
+17:27:08: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 61] Heartbeat received successfully
+17:27:09: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 66] Missed heartbeat; Currently missed 1 heartbeats consecutively
+17:27:09: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 61] Heartbeat received successfully
+17:27:10: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 66] Missed heartbeat; Currently missed 1 heartbeats consecutively
+17:27:11: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 61] Heartbeat received successfully
+17:27:12: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 66] Missed heartbeat; Currently missed 1 heartbeats consecutively
+17:27:13: [WARNING] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver.py | run | 66] Missed heartbeat; Currently missed 2 heartbeats consecutively
+17:27:13: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/heartbeat/heartbeat_receiver_worker.py | heartbeat_receiver_worker | 70] Exiting Heartbeat Receiver worker gracefully

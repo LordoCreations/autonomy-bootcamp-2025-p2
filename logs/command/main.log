@@ -1,0 +1,28 @@
+16:27:42: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/common/modules/logger/logger_main_setup.py | setup_main_logger | 62] main logger initialized
+16:27:42: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | main | 151] Connected!
+16:27:43: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE ALTITUDE: 1
+16:27:43: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE ALTITUDE: -1
+16:27:46: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: 63.43494882292201
+16:27:47: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: 90.0
+16:27:47: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: 116.56505117707799
+16:27:48: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: 45.0
+16:27:48: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: 63.43494882292201
+16:27:49: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: 90.0
+16:27:49: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: 26.565051177077976
+16:27:50: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: 45.0
+16:27:50: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: 90.0
+16:27:51: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: 45.0
+16:27:51: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: 90.0
+16:27:52: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: 135.0
+16:27:52: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: -26.565051177077994
+16:27:53: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: -45.0
+16:27:53: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: -90.0
+16:27:54: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: -45.0
+16:27:54: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: -90.0
+16:27:55: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: -135.0
+16:27:55: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: -63.43494882292201
+16:27:56: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: -90.0
+16:27:56: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: -116.565051177078
+16:27:57: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: -45.0
+16:27:57: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: -63.43494882292201
+16:27:58: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_command.py | read_queue | 92] Command output: CHANGE YAW: -90.0
