@@ -206,9 +206,9 @@ def main() -> int:
 
     while connected and (time.time() - start_time < 100):
         try:
-            heartbeat = heartbeat_queue.queue.get()
-            main_logger.info(f"Heartbeat received: {heartbeat}")
-            if heartbeat == "Disconnected":
+            heartbeat_data = heartbeat_queue.queue.get()
+            main_logger.info(f"Heartbeat received: {heartbeat_data}")
+            if heartbeat_data == "Disconnected":
                 connected = False
                 main_logger.info("Drone disconnected, ending program")
                 break
@@ -216,13 +216,13 @@ def main() -> int:
             pass
 
         try:
-            command = command_queue.queue.get()
-            main_logger.info(f"Command sent: {command}")
+            command_data = command_queue.queue.get()
+            main_logger.info(f"Command sent: {command_data}")
         except queue.Empty:
             pass
 
     # Stop the processes
-    controller.request_exit
+    controller.request_exit()
 
     main_logger.info("Requested exit")
 
