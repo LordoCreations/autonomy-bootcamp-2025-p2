@@ -20,18 +20,19 @@ from ..common.modules.logger import logger
 def command_worker(
     connection: mavutil.mavfile,
     target: command.Position,
-    controller: worker_controller.WorkerController,
     input_queue: queue_proxy_wrapper.QueueProxyWrapper,
     output_queue: queue_proxy_wrapper.QueueProxyWrapper,
+    controller: worker_controller.WorkerController,
 ) -> None:
     """
     Worker process.
 
     connection: mavlink connection to send and recieve commands
     target: target position to maintain
-    controller: worker controller to signal worker
     input_queue: input data queue to recieve telemetry data
     output_queue: output data queue to send results to main thread
+    controller: worker controller to signal worker
+
     """
     # =============================================================================================
     #                          ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑

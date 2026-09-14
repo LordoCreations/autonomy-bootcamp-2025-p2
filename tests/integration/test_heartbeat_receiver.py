@@ -152,7 +152,7 @@ def main() -> int:
     # Read the main queue (worker outputs)
     threading.Thread(target=read_queue, args=(output_queue, controller, main_logger)).start()
 
-    heartbeat_receiver_worker.heartbeat_receiver_worker(connection, controller, output_queue)
+    heartbeat_receiver_worker.heartbeat_receiver_worker(connection, output_queue, controller)
     # =============================================================================================
     #                          ↑ BOOTCAMPERS MODIFY ABOVE THIS COMMENT ↑
     # =============================================================================================
