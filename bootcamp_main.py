@@ -216,7 +216,7 @@ def main() -> int:
             pass
 
         try:
-            command_data = command_queue.queue.get()
+            command_data = command_queue.queue.get_nowait()
             main_logger.info(f"Command sent: {command_data}")
         except queue.Empty:
             pass
