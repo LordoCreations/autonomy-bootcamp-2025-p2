@@ -97,7 +97,7 @@ def main() -> int:
     res, hb_sender_properties = worker_manager.WorkerProperties.create(
         count=HEARTBEAT_SENDER_WORKER_COUNT,
         target=heartbeat_sender_worker.heartbeat_sender_worker,
-        work_arguments=(connection),
+        work_arguments=(connection,),
         input_queues=[],
         output_queues=[],
         controller=controller,
@@ -112,7 +112,7 @@ def main() -> int:
     res, hb_receiver_properties = worker_manager.WorkerProperties.create(
         count=HEARTBEAT_RECEIVER_WORKER_COUNT,
         target=heartbeat_receiver_worker.heartbeat_receiver_worker,
-        work_arguments=(connection),
+        work_arguments=(connection,),
         input_queues=[],
         output_queues=[heartbeat_queue],
         controller=controller,
@@ -127,7 +127,7 @@ def main() -> int:
     res, telemetry_properties = worker_manager.WorkerProperties.create(
         count=TELEMETRY_WORKER_COUNT,
         target=telemetry_worker.telemetry_worker,
-        work_arguments=(connection),
+        work_arguments=(connection,),
         input_queues=[],
         output_queues=[telemetry_queue],
         controller=controller,
@@ -206,7 +206,7 @@ def main() -> int:
 
     while connected and (time.time() - start_time < 100):
         try:
-            heartbeat_data = heartbeat_queue.queue.get()
+            heartbeat_data = heartbeat_queue.queue.get_nowait()
             main_logger.info(f"Heartbeat received: {heartbeat_data}")
             if heartbeat_data == "Disconnected":
                 connected = False

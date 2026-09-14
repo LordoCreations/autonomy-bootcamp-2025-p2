@@ -1,2 +1,28 @@
-17:26:52: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/modules/common/modules/logger/logger_main_setup.py | setup_main_logger | 62] main logger initialized
-17:26:52: [INFO] [/Users/dd/Documents/Projects/autonomy-bootcamp-2025-p2/tests/integration/test_heartbeat_receiver.py | main | 128] Connected!
+09:10:26: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\modules\common\modules\logger\logger_main_setup.py | setup_main_logger | 62] main logger initialized
+09:10:27: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | main | 129] Connected!
+09:10:27: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:28: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:29: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:29: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:30: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:30: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:31: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:32: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:33: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:34: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:35: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:36: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Disconnected
+09:10:37: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Disconnected
+09:10:38: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Disconnected
+09:10:39: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Disconnected
+09:10:40: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:41: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:41: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:42: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:42: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:43: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:43: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:44: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:45: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:46: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
+09:10:47: [INFO] [C:\Projects\autonomy-bootcamp-2025-p2\tests\integration\test_heartbeat_receiver.py | read_queue | 88] Reciever State: Connected
